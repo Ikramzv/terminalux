@@ -1,0 +1,33 @@
+{
+  "name": "terminalux",
+  "version": "1.0.0",
+  "description": "A lightweight TypeScript library for terminal text styling using ANSI escape codes",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "ts-node-dev --transpile-only --respawn src/index.ts",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "ansi",
+    "escape-codes",
+    "terminal",
+    "colors",
+    "styling",
+    "terminalux",
+    "terminal-colors",
+    "console",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.2"
+  }
+}
