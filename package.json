@@ -12,6 +12,10 @@
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ikramzv/terminalux"
+  },
   "keywords": [
     "ansi",
     "escape-codes",
@@ -23,7 +27,7 @@
     "console",
     "typescript"
   ],
-  "author": "",
+  "author": "Ikram Zulfugar",
   "license": "ISC",
   "devDependencies": {
     "ts-node": "^10.9.2",
