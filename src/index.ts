@@ -105,6 +105,4 @@ export { Tlux };
 
 export const tlux = new Tlux();
 
-tlux.rgbb(255, 0, 0).white().log("salam");
-
 export default tlux;
