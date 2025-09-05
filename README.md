@@ -50,6 +50,7 @@ myTlux.yellow().bold().log("Custom tlux instance");
 - `magenta()`
 - `cyan()`
 - `white()`
+- `rgb(r, g, b)` - red, green, blue values
 
 ### Available Styles
 
@@ -92,6 +93,7 @@ tlux.magenta().underline().log("Underlined text");
 
 // Complex styling
 tlux.cyan().bold().reverse().log("Highlighted text");
+tlux.rgb(255, 255, 0).italic().log("Italic text, rgb colors")
 
 // Create multiple instances
 const errorTlux = new Tlux();
