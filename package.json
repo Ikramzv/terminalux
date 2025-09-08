@@ -1,6 +1,6 @@
 {
   "name": "terminalux",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A lightweight TypeScript library for terminal text styling using ANSI escape codes",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
